@@ -1,0 +1,48 @@
+body {
+	background: #EEE2DC;
+	font-size: 16px;
+    font-family: 'Lora', serif;
+}
+.bg-dark {
+	background-color: #EDC7B7 !important;
+}
+/*.invisible {                   
+	visibility: hidden;
+} */
+h1 {
+	color: #123C69;
+}
+#h2 {
+	margin: 30px;
+	color: #123C69;
+}
+h3 {
+	color: #123C69;
+}
+div.card {
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #BAB2B5;
+	border: 2px solid #123C69;
+} 
+
+@media (min-width: 1200px) {
+	.invisible {
+		visibility: hidden !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.invisible {
+		visibility: hidden !important;
+	}
+}
+@media (max-width: 767px) {
+	.invisible {
+		visibility: visible !important;
+	}
+}
+@media (max-width: 844px) {
+	.invisible {
+		visibility: visible !important;
+	}
